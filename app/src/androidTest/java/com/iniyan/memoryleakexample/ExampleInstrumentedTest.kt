@@ -1,4 +1,4 @@
-package com.lukaslechner.memoryleakexample
+package com.iniyan.memoryleakexample
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

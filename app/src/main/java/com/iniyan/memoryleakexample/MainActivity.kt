@@ -1,4 +1,4 @@
-package com.lukaslechner.memoryleakexample
+package com.iniyan.memoryleakexample
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

@@ -1,7 +1,6 @@
-package com.lukaslechner.memoryleakexample
+package com.iniyan.memoryleakexample
 
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 
 class LeakingActivity : AppCompatActivity() {
@@ -20,7 +19,8 @@ class LeakingActivity : AppCompatActivity() {
 
     override fun onStop() {
         super.onStop()
-        // GlobalSingleton.unregister(listener)
+        // Resolve this memory leak error using uncomment this line
+        //GlobalSingleton.unregister(listener)
     }
 
     // inner class has implicit reference to enclosing Activity
